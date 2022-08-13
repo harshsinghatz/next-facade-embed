@@ -1,0 +1,27 @@
+.video{
+    height:300px;
+    width:550px;
+    position:relative;
+    background-color:darkgray;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+
+.video iframe{
+    height: 100%;
+    width:100%;
+}
+
+.play{
+    height:50px;
+    width:50px;
+    z-index: 1;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    height: 100vh;
+}
